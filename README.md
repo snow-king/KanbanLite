@@ -17,9 +17,25 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
     2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-## Customize configuration
+## Требования
+Требования:
+:heavy_check_mark: Использовать Vue.js
+:heavy_check_mark: Количество столбцов фиксированное.
+:heavy_check_mark: Хранить состояние с помощью vuex. При обновлении страницы состояние должно сохраняться.
+:heavy_check_mark: Использовать API для сохранения всех карточек - https://trello.backend.tests.nekidaem.ru/redoc/
+:heavy_check_mark: Для добавления карточек необходимо зарегистрироваться и авторизоваться через API
+:heavy_check_mark: Вывести возле названия списка количество карточек в списке. Количество должно меняться при перетаскивании карточек между списками.
+:heavy_check_mark: Сделать возможность добавления и удаление карточек (есть в API)
+:heavy_check_mark: Можно использовать готовые библиотеки JS и Vue, но в то же самое время не использовать готовые UI фреймворки. Например, https://vuetifyjs.com/en/ 
+:heavy_check_mark: Верстка должна быть адаптивная.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Большим плюсом будет реализация пунктов:
+:heavy_check_mark: Использование https://pinia.vuejs.org/ вместо vuex.
+:heavy_check_mark: Использование vue3, nuxt.js
+:heavy_check_mark: Реализация страниц авторизации и регистрации.
+:heavy_check_mark: Обработка ошибок, валидация. 
+:heavy_check_mark: :heavy_check_mark: На странице доски сделать хедер с кнопкой “выход”. При адаптиве кнопка “выход” должна уходить в меню "бургер".
+
 
 ## Project Setup
 
